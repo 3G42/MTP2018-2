@@ -1,4 +1,4 @@
-/*P1.c*/
+﻿/*P1.c*/
 /*Gabriel Gomes Garcia*/
 /*11811EEL014*/
 #include <stdio.h>
@@ -9,7 +9,7 @@ int main()
     char num[256];
 
     printf("Informe um número em binario para que eu possa verificar se eh um multiplo de 3\n");
-    scanf("%s",&num);
+    scanf("%s",num);
 
     for (i = 0; num[i]!='\0' ; i++ )
     {
