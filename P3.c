@@ -1,3 +1,6 @@
+/* P0.c */
+/* Gabriel Gomes Garcia*/
+/* 11811EEL014 */
 #include<stdio.h>
 int cont(char num[])
 {
