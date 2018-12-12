@@ -1,10 +1,13 @@
+/* P0.c */
+/* Gabriel Gomes Garcia*/
+/* 11811EEL014 */
 #include<stdio.h>
 
 int Acker(int m,int n);
 int main()
 {
     int m=-1,n=-1,a,b;
-    printf("Informe dois números inteiros positivos\n");
+    printf("Informe dois nÃºmeros inteiros positivos\n");
     for(;m<0||n<0;)
     {
         scanf("%d,%d",&m,&n);
