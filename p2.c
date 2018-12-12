@@ -1,3 +1,6 @@
+/* P2.c */
+/* Gabriel Gomes Garcia*/
+/* 11811EEL014 */
 #include<stdio.h>
 
 
