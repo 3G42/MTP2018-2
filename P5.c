@@ -1,3 +1,6 @@
+/* P5.c */
+/* Gabriel Gomes Garcia*/
+/* 11811EEL014 */
 #include<stdio.h>
 typedef
     unsigned long long int
@@ -27,7 +30,7 @@ double lcg_rand_01(LCG*r)
 void gera_numeros(float *vetor, int tam, float min, float max, LCG *r)
 {
     int i;
-    printf("Iremos montar o produtório e /ou somatório de 50 números aleatórios");
+    printf("Iremos montar o produtÃ³rio e /ou somatÃ³rio de 50 nÃºmeros aleatÃ³rios");
     for(i=0; i<tam; i++)
         vetor[i] = (max-min)*lcg_rand_01(r)+min;
 }
@@ -61,21 +64,21 @@ int main()
     double a,b;
     float vet[n];
     char x;
-    printf("Escolha uma opção:\n1-Somatório,\n2-Produtório\n");
+    printf("Escolha uma opÃ§Ã£o:\n1-SomatÃ³rio,\n2-ProdutÃ³rio\n");
     scanf("%c",&x);
     gera_numeros(vet, 50, 0.5, 1.5, &random);
     switch(x)
     {
     case '1':
         a = som(&vet[0],&vet[49]);
-        printf("\nO somatório é igual %lf\n\n",a);
+        printf("\nO somatÃ³rio Ã© igual %lf\n\n",a);
         break;
     case '2':
         b = prod(&vet[0],&vet[49]);
-        printf("\nO produtório é igual %lf\n\n",b);
+        printf("\nO produtÃ³rio Ã© igual %lf\n\n",b);
         break;
     default:
-        printf("\nERRO 404: Informe uma opção válida\n");
+        printf("\nERRO 404: Informe uma opÃ§Ã£o vÃ¡lida\n");
     }
     return x;
 
