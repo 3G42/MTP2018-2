@@ -1,3 +1,6 @@
+/* P6.c */
+/* Gabriel Gomes Garcia*/
+/* 11811EEL014 */
 #include <stdio.h>
 #include <stdlib.h>
 #include<math.h>
@@ -19,7 +22,7 @@ Ponto *gera_pontos(int N)
 int main() {
     unsigned int N;
     Ponto *p;
-    printf("Informe a quantidade de divisıes da esfera:\n");
+    printf("Informe a quantidade de divis√µes da esfera:\n");
     scanf("%d",&N); getchar();
     p = gera_pontos(N);
     free(p);
