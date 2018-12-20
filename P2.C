@@ -1,4 +1,8 @@
+/* P2.c */
+/* Gabriel Gomes Garcia*/
+/* 11811EEL014 */
 #include<stdio.h>
+
 long bindec(char v[]);
 void binhex(char v[]);
 long hexdec(char v[]);
